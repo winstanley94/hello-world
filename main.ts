@@ -1,10 +1,156 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
-})
-input.onButtonPressed(Button.AB, function () {
-    basic.showIcon(IconNames.No)
+	
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Heart)
 })
-basic.showIcon(IconNames.Sad)
+input.onGesture(Gesture.Shake, function () {
+    basic.showIcon(IconNames.No)
+})
+basic.showLeds(`
+    . . . . #
+    . . . . #
+    . . . . #
+    . . . . #
+    . . . . #
+    `)
+basic.showLeds(`
+    . . . # .
+    . . . # .
+    . . . # #
+    . . . # .
+    . . . # .
+    `)
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    . . # # #
+    . . # . .
+    . . # . .
+    `)
+basic.showLeds(`
+    . # . . .
+    . # . . .
+    . # # # #
+    . # . . .
+    . # . . .
+    `)
+basic.showLeds(`
+    # . . . #
+    # . . . #
+    # # # # #
+    # . . . #
+    # . . . #
+    `)
+basic.showLeds(`
+    . . . # .
+    . . . # .
+    # # # # .
+    . . . # .
+    . . . # .
+    `)
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    # # # . .
+    . . # . .
+    . . # . .
+    `)
+basic.showLeds(`
+    . # . . .
+    . # . . #
+    # # . . #
+    . # . . #
+    . # . . .
+    `)
+basic.showLeds(`
+    # . . . #
+    # . . # .
+    # . . # #
+    # . . # .
+    # . . . #
+    `)
+basic.showLeds(`
+    . . . # #
+    . . # . .
+    . . # # #
+    . . # . .
+    . . . # #
+    `)
+basic.showLeds(`
+    . . # # .
+    . # . . #
+    . # # # #
+    . # . . .
+    . . # # #
+    `)
+basic.showLeds(`
+    . # # . .
+    # . . # .
+    # # # # .
+    # . . . .
+    . # # # .
+    `)
+basic.showLeds(`
+    # # . . .
+    . . # . .
+    # # # . .
+    . . . . .
+    # # # . .
+    `)
+basic.showLeds(`
+    # . . . #
+    . # . . #
+    # # . . #
+    . . . . #
+    # # . . #
+    `)
+basic.showLeds(`
+    . . . # .
+    # . . # .
+    # . . # .
+    . . . # .
+    # . . # .
+    `)
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    `)
+basic.showLeds(`
+    . # . . #
+    . # . . #
+    . # . . #
+    . # . . #
+    . # . . #
+    `)
+basic.showLeds(`
+    # . . # .
+    # . . # .
+    # . . # .
+    # . . # .
+    # . . # .
+    `)
+basic.showLeds(`
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    . . # . .
+    `)
+basic.showLeds(`
+    . # . . .
+    . # . . .
+    . # . . #
+    . # . . .
+    . # . . .
+    `)
+basic.showLeds(`
+    # . . . .
+    # . . . #
+    # . . # .
+    # . . . #
+    # . . . .
+    `)
